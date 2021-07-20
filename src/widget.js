@@ -10,7 +10,7 @@ function paytmLoadWidget(widgetCode, containerId, props = {useRouter: false}) {
         const renderDOM = () => {
           const app = createApp(Component.default)
           if(props.useRouter){
-            import('./widgets/router.js')
+            import('./router.js')
               .then((mod) => {
                 app.use(mod.default);
                 app.mount(`#${containerId}`)
