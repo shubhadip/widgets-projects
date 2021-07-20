@@ -7,6 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "node server.js",
+    "deploy-widgets": "yarn build-widgets && node server.js",
     "run-webpack": "webpack ",
     "build-widgets": "VUE_APP_WIDGET_BUILD=true vue-cli-service build",
     "inspect-vue": "VUE_APP_WIDGET_BUILD=true vue inspect --mode production > op.js"
