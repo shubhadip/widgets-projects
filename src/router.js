@@ -25,7 +25,7 @@ const routes = [
   {
     path: "/test",
     name: "Test",
-    component: () => import(/* webpackChunkName: "three" */ './widgets/test.paytmwidget.vue')
+    component: () => import(/* webpackChunkName: "test" */ './widgets/test.paytmwidget.vue')
   }
 ];
 

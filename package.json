@@ -19,6 +19,7 @@
     "vue-router": "^4.0.10"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
@@ -28,6 +29,19 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
     "express": "^4.17.1",
+    "postcss-color-function": "^4.1.0",
+    "postcss-discard-comments": "^4.0.2",
+    "postcss-discard-empty": "^4.0.1",
+    "postcss-discard-unused": "^4.0.1",
+    "postcss-each": "^0.10.0",
+    "postcss-extend-rule": "^3.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-rem": "^1.1.5",
+    "postcss-simple-vars": "^5.0.2",
+    "postcss-sort-media-queries": "^1.6.24",
+    "postcss-url": "^8.0.0",
     "stats-webpack-plugin": "^0.7.0",
     "webpack-stats-plugin": "^1.0.3"
   },

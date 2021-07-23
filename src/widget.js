@@ -1,8 +1,9 @@
 
+import './assets/css/app-main.css';
 import { createApp } from 'vue'
 
 function paytmLoadWidget(widgetCode, containerId, props = {useRouter: false}) {
-  const widget = import(`./widgets/${widgetCode}.paytmwidget.vue`)
+  const widget = import( /* webpackChunkName: "[index]" */`./widgets/${widgetCode}.paytmwidget.vue`)
   if (widget) {
     const node = document.getElementById(containerId);
     if (node) {
@@ -25,4 +26,5 @@ function paytmLoadWidget(widgetCode, containerId, props = {useRouter: false}) {
     }
   }
 }
+
 window['paytmLoadWidget'] = paytmLoadWidget
